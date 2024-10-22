@@ -45,5 +45,14 @@ import.meta.glob([
 -Aggiungiamo '@use "~bootstrap/scss/bootstrap" as *;' al file 'resources/scss/app.scss'
 Aggiungiamo 'import * as bootstrap from "bootstrap";' al file 'resources/js/app.js'
 
+## COME USARE UN TEMPLATE REPOSRITORY
+-Apri la repository su github e clicca su "use this template" e poi creo una nuova repository
+-Le diamo un nome come richiesto
+-La cloniamo direttamente dalla nostra IDE (vscode)
+-Apriamo la repository
+-Eseguiamo 'npm install'
+-Eseguiamo 'composer install'
+-Eseguiamo il comando di generazione della chiave univoca del nostro progetto 'php artisan key:generate'
+-Eseguiamo i due comandi di esecuzione costante in due terminali separati(anche paralleli, volendo)'npm run dev' ''php artisan serve'
 
 
